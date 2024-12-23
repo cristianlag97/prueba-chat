@@ -1,16 +1,36 @@
 # chat_app
 
-A new Flutter project.
+# Proyecto Flutter con Riverpod y Anotaciones
+Este proyecto Flutter utiliza Riverpod para el manejo de estado, junto con Riverpod Annotations para facilitar la creación de proveedores de manera más declarativa. A continuación, te explicamos cómo configurar el entorno, ejecutar la aplicación y usar los comandos de anotaciones para generar el código automáticamente.
 
-## Getting Started
+## Requisitos previos
+Asegúrate de tener instalados los siguientes programas:
 
-This project is a starting point for a Flutter application.
+- Flutter 3.x o superior.
+- Dart 2.x o superior.
+- Riverpod para manejo del estado.
+- Riverpod Annotations para simplificar la creación de proveedores.
 
-A few resources to get you started if this is your first Flutter project:
+## Instalación y configuración
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. ### Clona el repositorio:
+```
+git clone https://github.com/cristianlag97/prueba-chat.git
+cd prueba-chat
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. ### ejecuta el siguiente comando:
+
+```
+flutter pub get
+```
+
+3. ### para correr los comandos de riverpod anotation y tome los cambios:
+```
+flutter pub add dev:build_runner
+dart run build_runner watch
+```
+
+# Evidencia de fucionamiento:
+
+
