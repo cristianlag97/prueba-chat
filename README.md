@@ -34,3 +34,11 @@ dart run build_runner watch
 # Evidencia de fucionamiento:
 
 
+
+https://github.com/user-attachments/assets/59bf0626-91c5-4336-95b4-5cf28d7ab813
+
+
+
+https://github.com/user-attachments/assets/59beec84-a7aa-44e5-8211-a24b4720df90
+
+
